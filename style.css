@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,input,textarea{
+    font-family: 'Poppins', sans-serif;
+}
+/* Nav Bar Properties Start*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    background-color:white;
+    padding: 20px 30px;
+}
+/* Nav Bar Properties End*/
+/*Top Icon Properties Start*/
+nav img{
+    height: 40px;
+    width: 40px;
+}
+/*Top Icon Properties End*/
+/*Nav bar right elements properties Start*/
+#head-right{
+    margin-top: 5px;
+}
+#head-right>div{
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+}
+#head-right button{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    background-color: #aad236;
+    padding: 8px 30px 8px 30px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+}
+/* Nav bar right elements properties End*/
+/* Demo Pages Hover Card Properties Start */
+#demo-card{
+    border-top: 2px solid #aad236;
+    margin-right: 25px;
+    width: 160px;
+    box-shadow: 0 2px 4px gray;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    right: 24%;
+    display: none;
+    background-color: #fff;
+}
+#demo-card div{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0;
+}
+#demo-card div:last-child{
+    border-bottom: none;
+}
+#head-right:hover, #head-right button:hover{
+    cursor: pointer;
+}
+#demo-pages:hover #demo-card, #demo-card:hover{
+    display: block;
+}
+/* Demo Pages Hover Card Properties End */
+/* Landing Background Image Properties Start*/
+#section-1{
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background: url('images/landing-background.png');
+    text-align: center;
+}
+/* Landing Background Image Properties End*/
+/* Properties for text on the Landing Background Image Start*/
+#text-on-img{
+    position: relative;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+}
+#text-on-img h1{
+    font-size: 44px;
+    width: 100%;
+    letter-spacing: 8.8px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#text-on-img p{
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    color: #8b8b99;
+    margin-top: 45px;
+}
+/* Properties for text on the Landing Background Image End*/
+/*Section 2 Start*/
+#first{
+    background-color: #5acda6;
+    width: 25%;
+    grid-area: first;
+}
+#second{
+    background-color: #91ac41;
+    width: 25%;
+}
+#third{
+    background-color: #e4b476;
+    width: 25%;
+}
+#fourth{
+    background-color: #f69dad;
+    width: 25%;
+}
+#container{
+    display: flex;
+}
+.cards{
+    color: #fff;
+    height: 500px;
+    text-align: center;
+    padding-top: 150px;
+}
+.cards i{
+    font-size: 96px;
+}
+.cards h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+}
+.cards p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    padding: 20px 50px 20px 45px;
+}
+.cards:hover i{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+/*Section 2 End*/
+/* Section 3 Start */
+#section-3{
+    background-color: #f7eee2;
+}
+#section-3-main{
+    padding: 120px 0px;
+}
+.head-style{
+    font-family: 'Caveat', cursive;
+    color: #aad236;
+    font-size: 24px;
+}
+.heading-style{
+    font-size: 44px;
+    font-weight: 600;
+}
+.p-style{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+#section-3-main-1{
+    text-align: center;
+}
+#section-3-main-container{
+    display: flex;
+    padding-top: 100px;
+    width: 70%;
+    margin: auto auto;
+}
+#section-3-main-container div i{
+    font-size: 60px;
+    background-color: #e3b375;
+    color: #fff;
+    padding: 50px;
+    border-radius: 50%;
+}
+#section-3-main-container div h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+#section-3-main-container div p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    width:97%;
+}
+#section-3-main-container div{
+    text-align: center;
+    width: 25%;
+    padding-right:30px;
+}
+#section-3-main-container div:last-child{
+    padding-right:none;
+}
+#section-3-main-container div:hover i{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+/* Section 3 End */
+/* Section 4 Start*/
+#section-4{
+    background-color: #fff;
+}
+#section-4-main{
+    text-align: center;
+    width: 100%;
+    padding: 120px 0px;
+}
+#section-4-main-1{
+    width: 45%;
+    margin: 0px auto;
+}
+#section-4-container{
+    display: flex;
+    width: 70%;
+    padding-top: 50px;
+    margin: 0px auto;
+}
+.sec-4-cards{
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    background-color: #f5f6fb;
+    width: 33.33%;
+    margin-right: 25px;
+}
+.sec-4-cards div:last-child{
+    margin-right: 0;
+}
+.sec-4-cards img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.sec-4-card-p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+}
+.about{
+    padding: 20px;
+}
+.review{
+    padding: 40px;
+    padding-bottom: 0;
+}
+.review img{
+    margin-bottom: 25px;
+}
+.author{
+    font-size: 16px;
+    font-weight: 600;
+}
+.title{
+    font-size: 12px;
+    color: #8b8b99;
+}
+.sec-4-cards:hover{
+    box-shadow: 2px 2px 8px rgba(128,128,128,0.4);
+}
+/* Section 4 End*/
+/* Section 5 Start*/
+#section-5{
+    display: flex;
+    width:100%;
+}
+#section-5 img{
+    height: 670px;
+    width: 68%;
+}
+#right-div{
+    background: url('images/form2.png');
+    width:32%;
+}
+#right-div-1{
+    width:60%;
+    margin: 0px auto;
+    margin-top: 30%;
+}
+#right-div-1 div:first-child h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#right-div-1 div:first-child p{
+    color: #8b8b99;
+}
+#right-div-1 div:last-child{
+    padding-top: 60px;
+}
+#right-div-1 div:last-child input{
+    font-size: 16px;
+    padding: 15px;
+    width: 90%;
+    border: 0;
+    outline: none;
+    font-weight: 540;
+    border-radius: 4px;
+}
+#right-div-1 div:last-child button{
+    padding: 18px 35px;
+    color: #fff;
+    background-color: #f69dad;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+#right-div-1 div:last-child button:hover{
+    color: #f69dad;
+    background-color: transparent;
+    border: 1px solid #f69dad;
+}
+/* Section 5 End*/
+/* Section 6 Start*/ 
+#section-6{
+    background-color: #f6fcfa;
+    height: 300px;
+}
+#section-6-main{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+#section-6-main h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#section-6-main div{
+    background-color: #f6fcfa;
+    text-align: center;
+}
+#section-6 div p{
+    color: rgba(6, 204, 138, 0.897);
+    font-size: 14px;
+}
+/* Section 6 End*/
+/* Section 7 Start */
+#section-7{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#section-7 h1{
+    font-size: 44px;
+    font-weight: 400;
+    color: #8b8b99;
+    padding: 50px;
+}
+#section-7 hr{
+    margin: auto;
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+#section-7 iframe{
+    width: 60%;
+    height: 500px;
+}
+/* Section 7 End */
+/* Section 8 Start */
+#section-8{
+    display: flex;
+    padding: 50px 50px;
+    padding-top: 0;
+}
+#section-8 h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#section-8 h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+#section-8 #info p:first-child{
+    font-size: 24px;
+}
+#section-8 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#section-8 pre{
+    line-height: 2;
+    font-weight: 400;
+}
+#section-8 #info{
+    width: 50%;
+}
+#section-8 #info h1{
+    padding: 20px;
+    padding-left: 0px;
+}
+#section-8 #info div h2{
+    margin-top: 30px;
+    padding-left: 0;
+}
+#section-8 #info div{
+    width: 75%;
+    margin: auto;
+}
+#section-8 #info div #desc{
+    margin: 0;
+    padding: 0;
+}
+#section-8 #form{
+    width: 50%;
+}
+#section-8 #form div{
+    width: 60%;
+    margin: auto;
+}
+#section-8 #form p:first-child{
+    font-size: 24px;
+}
+#section-8 #form div div{
+    width:100%;
+    padding-bottom: 10px;
+}
+#section-8 #form div div input,textarea{
+    width:100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+#form form{
+    padding: 20px;
+    padding-left: 0;
+}
+#form form button{
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-weight: 600;
+    background-color: #aad236;
+    font-size: 16px;
+}
+#form form button:hover{
+    background-color: transparent;
+    border: 1px solid #aad236;
+    color: #aad236;
+    cursor: pointer;
+}
+/* Section 8 End */
+/* Section 9 Start */
+footer{
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+/* Section 9 End */
+/* Media Queries*/
+@media screen and (max-width: 900px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav #head-right button{
+        margin-right: 0px;
+    }
+    nav #head-right div{
+        display: none;
+    }
+    #section-1 #text-on-img{
+        padding-top: 400px;
+    }
+    #section-1 #text-on-img h1{
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+    #text-on-img p{
+        font-size: 12px;
+    }
+    #container{
+        display: block;
+    }
+    #container div{
+        width: 100%;
+    }
+    .head-style{
+        font-size: 20px;
+    }
+    .heading-style{
+        font-size: 24px;
+    }
+    .p-style{
+        font-size: 12px;
+    }
+    #section-3-main-container{
+        display: block;
+        padding-top: 30px;
+    }
+    #section-3-main-container div{
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #section-3-main-container div h1{
+        font-size: 20px;
+    }
+    #section-3-main-container div p{
+        font-size: 12px;
+    }
+    #section-4-container{
+        display: block;
+        width: 100vw;
+    }
+    #section-4-main-1{
+        width: 100vw;
+    }
+    .sec-4-cards{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .sec-4-card-p,.title{
+        font-size: 12px;
+    }
+    .author{
+        font-size: 14px;
+    }
+    #section-5{
+        display: block;
+        width: 100%;
+    }
+    #section-5 img{
+        width: 100vw;
+        height: 300px;
+    }
+    #right-div{
+        width: 100%;
+        background: url('images/form2.png') no-repeat;
+        background-size: cover;
+    }
+    #right-div-1{
+        margin-top: 0;
+    }
+    #right-div-1 div:first-child{
+        padding-top: 30px;
+    }
+    #right-div-1 div:last-child{
+        padding-bottom: 30px;
+    }
+    #section-6{
+        height: 600px;
+        width: 100vw;
+    }
+    #section-6-main{
+        display: block;
+    }
+    #section-7{
+        width: 100vw;
+        padding-bottom: 40px;
+    }
+    #section-7 h1{
+        font-size: 36px;
+    }
+    #section-7 iframe{
+        width: 90%;
+        height: 300px;
+    }
+    #section-8{
+        display: block;
+        padding: 0px 20px;
+        padding-bottom: 50px;
+    }
+    #section-8 #info,#section-8 #form{
+        width: 100%;
+    }
+    #section-8 #info div{
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #section-8 #info{
+        padding-bottom: 40px;
+    }
+    #section-8 h1{
+        font-size: 36px;
+    }
+    #section-8 #form div{
+        margin: 0;
+        width: 95%;
+    }
+    footer{
+        width: 100vw;
+        padding: 20px 0px;
+    }
+}
